@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> day2 </title>
+        <style>
+            marquee{color: darkblue;}
+            label{color: darkmagenta;}
+            input{color: darkorange;}
+            img{ width: 500px ; border-left-color: forestgreen;
+            border-style: dashed; border-right-color: goldenrod;
+            align-items: center;
+            }
+            /* select{color: deeppink;}*/
+            
+            body{background-image:linear-gradient(grey,pink);} 
+            /* . dot is uesd to say that it is a class */
+            .gen{color: rgb(32, 21, 21);
+            /* impotant tag is used to for major priority */
+            /*  for selectinh id we use # id has high priroty */
+            /* class have lower priorty then id */
+            
+        </style>
+    </head>
+    <!-- style is uses as in css and cooment style is /*   */    -->
+    <body>
+        <marquee direction =" right"> <b><i><h1>Ankita</h1></i></b></marquee>
+        <!-- input tag is used to input things -->
+        <!-- action help to store data in particular place-->
+        <!-- method work what you want to do post or get -->
+        <form action="mailto: mail.google.com/mail/u/0/#inbox"method="post" >
+            name: <br>
+            <input type="text" placeholder="Enter your name" required>
+            <br>
+            <!-- radio button are those which are in form of circle-->
+            <!-- type do to fill the form -->
+            <!-- name is used to see what you want -->
+            <!-- value is for fix value we need-->
+            <!-- id is for unique identity -->
+            gender : <br>
+            <input type="radio" name = "gender" value="male"id = "gender- m">
+            <!--inside label we difine class and id by which we can style our male as required -->
+            <label for= "gender- m"class=" gen" id ="newgen">male</label>
+            <input type="radio" name = " gender" value ="female"id ="gender - f ">
+            <label for= "gender - f" class = " gen">female</label>
+            <!-- placeholder inside the box-->
+            <!-- value atrribute is used to fix the value of box-->
+            <br>
+            <input type="checkbox" name = "skill" value="HTML" id = "skill1">
+            <lable for = "skill1">HTML </lable>
+            <input type="checkbox" name = "skill" value="TML" id = "skill2">
+            <lable for = "skill2">TML</lable>
+            <input type="checkbox" name = "skill" value = " paragraph" id = "skill3">
+            <lable for = "skill3">paragraph </lable>
+            <br>
+            <input type="submit" name="submit" value = "submit">
+            <input type="reset" value="reset">
+        </form>
+        <br>
+        Nmae of the student:
+        <select name="name of the student "id = ""> 
+            <option value="">select a student </option>
+            <option value="">Ankita</option>
+            <option value="">Arpita</option>
+            <option value =""> Aman </option>
+        </select>
+        <!--type of css -- inline style 
+        internal or using style tag
+    external styling --><br><br>
+    <img src = "https://api.time.com/wp-content/uploads/2014/07/301386_full1.jpg?quality=85&w=766&h=512&crop=1">
+    <div id = "pad">
+        hii Aman ab toh samjho ki aapko kitna miss kar rhi hu rooj 
+    </div>
+    </body>
+</html>
